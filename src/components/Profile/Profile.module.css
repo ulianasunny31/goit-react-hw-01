@@ -1,0 +1,44 @@
+.statList {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+  border-radius: 0 0 10px 10px;
+}
+
+.profileContainer {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-top: 10px;
+}
+
+.profileContainer img {
+  width: 200px;
+}
+
+.shortInfoContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.nameP {
+  font-size: 16px;
+  color: black;
+  margin: 0;
+}
+
+.shortP {
+  font-size: 14px;
+  color: grey;
+  margin: 0;
+}
+
+.statListItem {
+  display: flex;
+  flex-direction: column;
+}
