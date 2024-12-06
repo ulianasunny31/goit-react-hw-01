@@ -2,6 +2,7 @@ import css from './TransactionHistory.module.css'
 
 const TransactionHistory = ({ items }) => {
      
+  //setting the type of transaction
     function getType(type) {
         switch (type) { 
             case 'invoice':
@@ -14,8 +15,7 @@ const TransactionHistory = ({ items }) => {
                 return 'Deposit';
         }
     }
-
-
+ 
   return (
 <>
 <table className={css.table}>
