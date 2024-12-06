@@ -1,2 +1,26 @@
 .friendCard {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.friendCard img {
+  width: 100px;
+}
+
+.friendNameP {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.online {
+  color: green;
+  margin: 0;
+}
+
+.offline {
+  color: red;
+  margin: 0;
 }
